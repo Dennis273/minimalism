@@ -206,6 +206,11 @@ CREATE TABLE photos (
   image_url TEXT NOT NULL,
   thumbnail_url TEXT,
 
+  -- 图片尺寸 (瀑布流布局必需)
+  width INTEGER NOT NULL,         -- 图片宽度 (像素)
+  height INTEGER NOT NULL,        -- 图片高度 (像素)
+  file_size INTEGER,              -- 文件大小 (字节)
+
   -- EXIF 数据
   taken_at TIMESTAMPTZ,          -- 拍摄时间
   latitude DOUBLE PRECISION,      -- GPS 纬度 (GCJ-02)

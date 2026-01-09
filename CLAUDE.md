@@ -12,10 +12,11 @@ Mini 照片社区（Mini Photo Community）是一个为 Mini 汽车爱好者打�
 
 ```
 PRODUCT.md             # 产品需求文档
+ARCHITECTURE.md        # 技术架构文档
 CLAUDE.md              # Claude Code 开发指南
 ```
 
-> 注：项目处于早期阶段，技术栈和目录结构待确定。
+> 注：项目处于早期阶段，代码目录结构待项目初始化后补充。
 
 ## 常用命令
 
